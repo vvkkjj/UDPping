@@ -50,6 +50,7 @@ if len(sys.argv) != 3 and len(sys.argv)!=4 :
 	print("   ./udpping 44.55.66.77 4000")
 	print('   ./udpping 44.55.66.77 4000 "LEN=400;INTERVAL=2000"')
 	print("   ./udpping fe80::5400:ff:aabb:ccdd 4000")
+	print("   socat -v UDP-LISTEN:4000,fork PIPE")
 	print()
 
 	exit()
